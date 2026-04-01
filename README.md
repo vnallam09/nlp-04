@@ -90,8 +90,8 @@ open a machine terminal in your `Repos` folder:
 
 ```shell
 # Replace username with YOUR GitHub username.
-git clone https://github.com/username/nlp-04-api-text-data
-cd nlp-04-api-text-data
+git clone https://github.com/vnallam09/nlp-04.git
+cd nlp-04
 code .
 ```
 
