@@ -65,9 +65,9 @@ def run_transform(
     for record in json_data:
         records.append(
             {
-                "user_id": record["userId"],
-                "post_id": record["id"],
-                "title": record["title"],
+                "user_id": record["id"],
+                "post_id": record["postId"],
+                "title": record["name"],
                 "body": record["body"],
             }
         )

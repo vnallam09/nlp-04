@@ -57,3 +57,169 @@ shape: (5, 6)
 2026-03-31 21:29:08 | INFO | CI | ========================
 2026-03-31 21:29:08 | INFO | CI | Pipeline executed successfully!
 2026-03-31 21:29:08 | INFO | CI | ========================
+2026-04-02 13:48:02 | INFO | CI | === RUN START ===
+2026-04-02 13:48:02 | INFO | CI | project=MODULE 4: EVTL PIPELINE
+2026-04-02 13:48:02 | INFO | CI | repo_dir=nlp-04
+2026-04-02 13:48:02 | INFO | CI | python=3.14.0
+2026-04-02 13:48:02 | INFO | CI | os=Windows 11
+2026-04-02 13:48:02 | INFO | CI | shell=powershell
+2026-04-02 13:48:02 | INFO | CI | cwd=.
+2026-04-02 13:48:02 | INFO | CI | github_actions=False
+2026-04-02 13:48:02 | INFO | CI | START PIPELINE
+2026-04-02 13:48:02 | INFO | CI | ROOT_PATH = .
+2026-04-02 13:48:02 | INFO | CI | DATA_PATH = data
+2026-04-02 13:48:02 | INFO | CI | RAW_PATH = data\raw
+2026-04-02 13:48:02 | INFO | CI | PROCESSED_PATH = data\processed
+2026-04-02 13:48:02 | INFO | CI | ========================
+2026-04-02 13:48:02 | INFO | CI | STAGE 01: EXTRACT starting... 
+2026-04-02 13:48:02 | INFO | CI | ========================
+2026-04-02 13:48:03 | INFO | CI | SOURCE PATH = https://jsonplaceholder.typicode.com/comments
+2026-04-02 13:48:03 | INFO | CI | SINK PATH = data\raw\teja_comments_raw.json
+2026-04-02 13:48:03 | INFO | CI | ========================
+2026-04-02 13:48:03 | INFO | CI | STAGE 02: VALIDATE starting...
+2026-04-02 13:48:03 | INFO | CI | ========================
+2026-04-02 13:48:03 | INFO | CI | JSON STRUCTURE INSPECTION:
+2026-04-02 13:48:03 | INFO | CI | Top-level type: list
+2026-04-02 13:48:03 | INFO | CI | Keys in first record: ['postId', 'id', 'name', 'email', 'body']
+2026-04-02 13:48:03 | INFO | CI | Field types:
+2026-04-02 13:48:03 | INFO | CI | postId: int
+2026-04-02 13:48:03 | INFO | CI | id: int
+2026-04-02 13:48:03 | INFO | CI | name: str
+2026-04-02 13:48:03 | INFO | CI | email: str
+2026-04-02 13:48:03 | INFO | CI | body: str
+2026-04-02 13:48:03 | INFO | CI | Validation passed.
+2026-04-02 13:48:03 | INFO | CI | Sink: validated JSON object
+2026-04-02 13:48:03 | INFO | CI | ========================
+2026-04-02 13:48:03 | INFO | CI | STAGE 03: TRANSFORM starting...
+2026-04-02 13:48:03 | INFO | CI | ========================
+2026-04-02 13:51:03 | INFO | CI | === RUN START ===
+2026-04-02 13:51:03 | INFO | CI | project=MODULE 4: EVTL PIPELINE
+2026-04-02 13:51:03 | INFO | CI | repo_dir=nlp-04
+2026-04-02 13:51:03 | INFO | CI | python=3.14.0
+2026-04-02 13:51:03 | INFO | CI | os=Windows 11
+2026-04-02 13:51:03 | INFO | CI | shell=powershell
+2026-04-02 13:51:03 | INFO | CI | cwd=.
+2026-04-02 13:51:03 | INFO | CI | github_actions=False
+2026-04-02 13:51:03 | INFO | CI | START PIPELINE
+2026-04-02 13:51:03 | INFO | CI | ROOT_PATH = .
+2026-04-02 13:51:03 | INFO | CI | DATA_PATH = data
+2026-04-02 13:51:03 | INFO | CI | RAW_PATH = data\raw
+2026-04-02 13:51:03 | INFO | CI | PROCESSED_PATH = data\processed
+2026-04-02 13:51:03 | INFO | CI | ========================
+2026-04-02 13:51:03 | INFO | CI | STAGE 01: EXTRACT starting... 
+2026-04-02 13:51:03 | INFO | CI | ========================
+2026-04-02 13:51:03 | INFO | CI | SOURCE PATH = https://jsonplaceholder.typicode.com/comments
+2026-04-02 13:51:03 | INFO | CI | SINK PATH = data\raw\teja_comments_raw.json
+2026-04-02 13:51:03 | INFO | CI | ========================
+2026-04-02 13:51:03 | INFO | CI | STAGE 02: VALIDATE starting...
+2026-04-02 13:51:03 | INFO | CI | ========================
+2026-04-02 13:51:03 | INFO | CI | JSON STRUCTURE INSPECTION:
+2026-04-02 13:51:03 | INFO | CI | Top-level type: list
+2026-04-02 13:51:03 | INFO | CI | Keys in first record: ['postId', 'id', 'name', 'email', 'body']
+2026-04-02 13:51:03 | INFO | CI | Field types:
+2026-04-02 13:51:03 | INFO | CI | postId: int
+2026-04-02 13:51:03 | INFO | CI | id: int
+2026-04-02 13:51:03 | INFO | CI | name: str
+2026-04-02 13:51:03 | INFO | CI | email: str
+2026-04-02 13:51:03 | INFO | CI | body: str
+2026-04-02 13:51:03 | INFO | CI | Validation passed.
+2026-04-02 13:51:03 | INFO | CI | Sink: validated JSON object
+2026-04-02 13:51:03 | INFO | CI | ========================
+2026-04-02 13:51:03 | INFO | CI | STAGE 03: TRANSFORM starting...
+2026-04-02 13:51:03 | INFO | CI | ========================
+2026-04-02 13:51:03 | INFO | CI | Transformation complete.
+2026-04-02 13:51:03 | INFO | CI | DataFrame preview:
+shape: (5, 6)
+┌─────────┬─────────┬──────────────┬──────────────┬──────────────┬─────────────┐
+│ user_id ┆ post_id ┆ title        ┆ body         ┆ title_length ┆ body_length │
+│ ---     ┆ ---     ┆ ---          ┆ ---          ┆ ---          ┆ ---         │
+│ i64     ┆ i64     ┆ str          ┆ str          ┆ u32          ┆ u32         │
+╞═════════╪═════════╪══════════════╪══════════════╪══════════════╪═════════════╡
+│ 1       ┆ 1       ┆ id labore ex ┆ laudantium   ┆ 28           ┆ 148         │
+│         ┆         ┆ et quam      ┆ enim quasi   ┆              ┆             │
+│         ┆         ┆ laborum      ┆ est quid…    ┆              ┆             │
+│ 2       ┆ 1       ┆ quo vero     ┆ est natus    ┆ 41           ┆ 168         │
+│         ┆         ┆ reiciendis   ┆ enim nihil   ┆              ┆             │
+│         ┆         ┆ velit simi…  ┆ est dolor…   ┆              ┆             │
+│ 3       ┆ 1       ┆ odio         ┆ quia         ┆ 29           ┆ 218         │
+│         ┆         ┆ adipisci     ┆ molestiae    ┆              ┆             │
+│         ┆         ┆ rerum aut    ┆ reprehenderi ┆              ┆             │
+│         ┆         ┆ animi        ┆ t q…         ┆              ┆             │
+│ 4       ┆ 1       ┆ alias odio   ┆ non et atque ┆ 14           ┆ 154         │
+│         ┆         ┆ sit          ┆ occaecati    ┆              ┆             │
+│         ┆         ┆              ┆ deserun…     ┆              ┆             │
+│ 5       ┆ 1       ┆ vero eaque   ┆ harum non    ┆ 37           ┆ 132         │
+│         ┆         ┆ aliquid      ┆ quasi et     ┆              ┆             │
+│         ┆         ┆ doloribus e… ┆ ratione      ┆              ┆             │
+│         ┆         ┆              ┆ tem…         ┆              ┆             │
+└─────────┴─────────┴──────────────┴──────────────┴──────────────┴─────────────┘
+2026-04-02 13:51:03 | INFO | CI | Sink: Polars DataFrame created
+2026-04-02 13:51:03 | INFO | CI | ========================
+2026-04-02 13:51:03 | INFO | CI | STAGE 04: LOAD starting...
+2026-04-02 13:51:03 | INFO | CI | ========================
+2026-04-02 13:51:03 | INFO | CI | SINK PATH = data\processed\teja_comments_processed.csv
+2026-04-02 13:51:03 | INFO | CI | ========================
+2026-04-02 13:51:03 | INFO | CI | Pipeline executed successfully!
+2026-04-02 13:51:03 | INFO | CI | ========================
+2026-04-02 13:51:21 | INFO | CI | === RUN START ===
+2026-04-02 13:51:21 | INFO | CI | project=MODULE 4: EVTL PIPELINE
+2026-04-02 13:51:21 | INFO | CI | repo_dir=nlp-04
+2026-04-02 13:51:21 | INFO | CI | python=3.14.0
+2026-04-02 13:51:21 | INFO | CI | os=Windows 11
+2026-04-02 13:51:21 | INFO | CI | shell=powershell
+2026-04-02 13:51:21 | INFO | CI | cwd=.
+2026-04-02 13:51:21 | INFO | CI | github_actions=False
+2026-04-02 13:51:21 | INFO | CI | START PIPELINE
+2026-04-02 13:51:21 | INFO | CI | ROOT_PATH = .
+2026-04-02 13:51:21 | INFO | CI | DATA_PATH = data
+2026-04-02 13:51:21 | INFO | CI | RAW_PATH = data\raw
+2026-04-02 13:51:21 | INFO | CI | PROCESSED_PATH = data\processed
+2026-04-02 13:51:21 | INFO | CI | ========================
+2026-04-02 13:51:21 | INFO | CI | STAGE 01: EXTRACT starting... 
+2026-04-02 13:51:21 | INFO | CI | ========================
+2026-04-02 13:51:22 | INFO | CI | SOURCE PATH = https://jsonplaceholder.typicode.com/comments
+2026-04-02 13:51:22 | INFO | CI | SINK PATH = data\raw\teja_comments_raw.json
+2026-04-02 13:51:22 | INFO | CI | ========================
+2026-04-02 13:51:22 | INFO | CI | STAGE 02: VALIDATE starting...
+2026-04-02 13:51:22 | INFO | CI | ========================
+2026-04-02 13:51:22 | INFO | CI | JSON STRUCTURE INSPECTION:
+2026-04-02 13:51:22 | INFO | CI | Top-level type: list
+2026-04-02 13:51:22 | INFO | CI | Keys in first record: ['postId', 'id', 'name', 'email', 'body']
+2026-04-02 13:51:22 | INFO | CI | Field types:
+2026-04-02 13:51:22 | INFO | CI | postId: int
+2026-04-02 13:51:22 | INFO | CI | id: int
+2026-04-02 13:51:22 | INFO | CI | name: str
+2026-04-02 13:51:22 | INFO | CI | email: str
+2026-04-02 13:51:22 | INFO | CI | body: str
+2026-04-02 13:51:22 | INFO | CI | Validation passed.
+2026-04-02 13:51:22 | INFO | CI | Sink: validated JSON object
+2026-04-02 13:51:22 | INFO | CI | ========================
+2026-04-02 13:51:22 | INFO | CI | STAGE 03: TRANSFORM starting...
+2026-04-02 13:51:22 | INFO | CI | ========================
+2026-04-02 13:51:22 | INFO | CI | Transformation complete.
+2026-04-02 13:51:22 | INFO | CI | DataFrame preview:
+shape: (5, 6)
+┌─────────┬─────────┬───────────────────────────────┬───────────────────────────────┬──────────────┬─────────────┐
+│ user_id ┆ post_id ┆ title                         ┆ body                          ┆ title_length ┆ body_length │
+│ ---     ┆ ---     ┆ ---                           ┆ ---                           ┆ ---          ┆ ---         │
+│ i64     ┆ i64     ┆ str                           ┆ str                           ┆ u32          ┆ u32         │
+╞═════════╪═════════╪═══════════════════════════════╪═══════════════════════════════╪══════════════╪═════════════╡
+│ 1       ┆ 1       ┆ id labore ex et quam laborum  ┆ laudantium enim quasi est     ┆ 28           ┆ 148         │
+│         ┆         ┆                               ┆ quid…                         ┆              ┆             │
+│ 2       ┆ 1       ┆ quo vero reiciendis velit     ┆ est natus enim nihil est      ┆ 41           ┆ 168         │
+│         ┆         ┆ simi…                         ┆ dolor…                        ┆              ┆             │
+│ 3       ┆ 1       ┆ odio adipisci rerum aut animi ┆ quia molestiae reprehenderit  ┆ 29           ┆ 218         │
+│         ┆         ┆                               ┆ q…                            ┆              ┆             │
+│ 4       ┆ 1       ┆ alias odio sit                ┆ non et atque                  ┆ 14           ┆ 154         │
+│         ┆         ┆                               ┆ occaecati deserun…            ┆              ┆             │
+│ 5       ┆ 1       ┆ vero eaque aliquid doloribus  ┆ harum non quasi et ratione    ┆ 37           ┆ 132         │
+│         ┆         ┆ e…                            ┆ tem…                          ┆              ┆             │
+└─────────┴─────────┴───────────────────────────────┴───────────────────────────────┴──────────────┴─────────────┘
+2026-04-02 13:51:22 | INFO | CI | Sink: Polars DataFrame created
+2026-04-02 13:51:22 | INFO | CI | ========================
+2026-04-02 13:51:22 | INFO | CI | STAGE 04: LOAD starting...
+2026-04-02 13:51:22 | INFO | CI | ========================
+2026-04-02 13:51:22 | INFO | CI | SINK PATH = data\processed\teja_comments_processed.csv
+2026-04-02 13:51:22 | INFO | CI | ========================
+2026-04-02 13:51:22 | INFO | CI | Pipeline executed successfully!
+2026-04-02 13:51:22 | INFO | CI | ========================
