@@ -223,3 +223,430 @@ shape: (5, 6)
 2026-04-02 13:51:22 | INFO | CI | ========================
 2026-04-02 13:51:22 | INFO | CI | Pipeline executed successfully!
 2026-04-02 13:51:22 | INFO | CI | ========================
+2026-04-03 16:31:54 | INFO | CI | === RUN START ===
+2026-04-03 16:31:54 | INFO | CI | project=MODULE 4: EVTL PIPELINE
+2026-04-03 16:31:54 | INFO | CI | repo_dir=nlp-04
+2026-04-03 16:31:54 | INFO | CI | python=3.14.0
+2026-04-03 16:31:54 | INFO | CI | os=Windows 11
+2026-04-03 16:31:54 | INFO | CI | shell=powershell
+2026-04-03 16:31:54 | INFO | CI | cwd=.
+2026-04-03 16:31:54 | INFO | CI | github_actions=False
+2026-04-03 16:31:54 | INFO | CI | START PIPELINE
+2026-04-03 16:31:54 | INFO | CI | ROOT_PATH = .
+2026-04-03 16:31:54 | INFO | CI | DATA_PATH = data
+2026-04-03 16:31:54 | INFO | CI | RAW_PATH = data\raw
+2026-04-03 16:31:54 | INFO | CI | PROCESSED_PATH = data\processed
+2026-04-03 16:31:54 | INFO | CI | ========================
+2026-04-03 16:31:54 | INFO | CI | STAGE 01: EXTRACT starting... 
+2026-04-03 16:31:54 | INFO | CI | ========================
+2026-04-03 16:31:55 | INFO | CI | SOURCE PATH = http://api.open-notify.org/iss-now.json
+2026-04-03 16:31:55 | INFO | CI | SINK PATH = data\raw\iss_location_raw_teja.json
+2026-04-03 16:33:37 | INFO | CI | === RUN START ===
+2026-04-03 16:33:37 | INFO | CI | project=MODULE 4: EVTL PIPELINE
+2026-04-03 16:33:37 | INFO | CI | repo_dir=nlp-04
+2026-04-03 16:33:37 | INFO | CI | python=3.14.0
+2026-04-03 16:33:37 | INFO | CI | os=Windows 11
+2026-04-03 16:33:37 | INFO | CI | shell=powershell
+2026-04-03 16:33:37 | INFO | CI | cwd=.
+2026-04-03 16:33:37 | INFO | CI | github_actions=False
+2026-04-03 16:33:37 | INFO | CI | START PIPELINE
+2026-04-03 16:33:37 | INFO | CI | ROOT_PATH = .
+2026-04-03 16:33:37 | INFO | CI | DATA_PATH = data
+2026-04-03 16:33:37 | INFO | CI | RAW_PATH = data\raw
+2026-04-03 16:33:37 | INFO | CI | PROCESSED_PATH = data\processed
+2026-04-03 16:33:37 | INFO | CI | ========================
+2026-04-03 16:33:37 | INFO | CI | STAGE 01: EXTRACT starting... 
+2026-04-03 16:33:37 | INFO | CI | ========================
+2026-04-03 16:33:55 | INFO | CI | SOURCE PATH = http://api.open-notify.org/iss-now.json
+2026-04-03 16:33:55 | INFO | CI | SINK PATH = data\raw\iss_location_raw_teja.json
+2026-04-03 16:33:55 | INFO | CI | ========================
+2026-04-03 16:33:55 | INFO | CI | STAGE 02: VALIDATE starting...
+2026-04-03 16:33:55 | INFO | CI | ========================
+2026-04-03 16:33:55 | INFO | CI | JSON STRUCTURE INSPECTION:
+2026-04-03 16:33:55 | INFO | CI | Top-level type: dict
+2026-04-03 16:41:08 | INFO | CI | === RUN START ===
+2026-04-03 16:41:08 | INFO | CI | project=MODULE 4: EVTL PIPELINE
+2026-04-03 16:41:08 | INFO | CI | repo_dir=nlp-04
+2026-04-03 16:41:08 | INFO | CI | python=3.14.0
+2026-04-03 16:41:08 | INFO | CI | os=Windows 11
+2026-04-03 16:41:08 | INFO | CI | shell=powershell
+2026-04-03 16:41:08 | INFO | CI | cwd=.
+2026-04-03 16:41:08 | INFO | CI | github_actions=False
+2026-04-03 16:41:08 | INFO | CI | START PIPELINE
+2026-04-03 16:41:08 | INFO | CI | ROOT_PATH = .
+2026-04-03 16:41:08 | INFO | CI | DATA_PATH = data
+2026-04-03 16:41:08 | INFO | CI | RAW_PATH = data\raw
+2026-04-03 16:41:08 | INFO | CI | PROCESSED_PATH = data\processed
+2026-04-03 16:41:08 | INFO | CI | ========================
+2026-04-03 16:41:08 | INFO | CI | STAGE 01: EXTRACT starting... 
+2026-04-03 16:41:08 | INFO | CI | ========================
+2026-04-03 16:41:29 | INFO | CI | === RUN START ===
+2026-04-03 16:41:29 | INFO | CI | project=MODULE 4: EVTL PIPELINE
+2026-04-03 16:41:29 | INFO | CI | repo_dir=nlp-04
+2026-04-03 16:41:29 | INFO | CI | python=3.14.0
+2026-04-03 16:41:29 | INFO | CI | os=Windows 11
+2026-04-03 16:41:29 | INFO | CI | shell=powershell
+2026-04-03 16:41:29 | INFO | CI | cwd=.
+2026-04-03 16:41:29 | INFO | CI | github_actions=False
+2026-04-03 16:41:29 | INFO | CI | START PIPELINE
+2026-04-03 16:41:29 | INFO | CI | ROOT_PATH = .
+2026-04-03 16:41:29 | INFO | CI | DATA_PATH = data
+2026-04-03 16:41:29 | INFO | CI | RAW_PATH = data\raw
+2026-04-03 16:41:29 | INFO | CI | PROCESSED_PATH = data\processed
+2026-04-03 16:41:29 | INFO | CI | ========================
+2026-04-03 16:41:29 | INFO | CI | STAGE 01: EXTRACT starting... 
+2026-04-03 16:41:29 | INFO | CI | ========================
+2026-04-03 16:42:37 | INFO | CI | === RUN START ===
+2026-04-03 16:42:37 | INFO | CI | project=MODULE 4: EVTL PIPELINE
+2026-04-03 16:42:37 | INFO | CI | repo_dir=nlp-04
+2026-04-03 16:42:37 | INFO | CI | python=3.14.0
+2026-04-03 16:42:37 | INFO | CI | os=Windows 11
+2026-04-03 16:42:37 | INFO | CI | shell=powershell
+2026-04-03 16:42:37 | INFO | CI | cwd=.
+2026-04-03 16:42:37 | INFO | CI | github_actions=False
+2026-04-03 16:42:37 | INFO | CI | START PIPELINE
+2026-04-03 16:42:37 | INFO | CI | ROOT_PATH = .
+2026-04-03 16:42:37 | INFO | CI | DATA_PATH = data
+2026-04-03 16:42:37 | INFO | CI | RAW_PATH = data\raw
+2026-04-03 16:42:37 | INFO | CI | PROCESSED_PATH = data\processed
+2026-04-03 16:42:37 | INFO | CI | ========================
+2026-04-03 16:42:37 | INFO | CI | STAGE 01: EXTRACT starting... 
+2026-04-03 16:42:37 | INFO | CI | ========================
+2026-04-03 16:42:42 | INFO | CI | SOURCE PATH = http://api.open-notify.org/iss-now.json
+2026-04-03 16:42:42 | INFO | CI | SINK PATH = data\raw\iss_location_raw_teja.json
+2026-04-03 16:42:42 | INFO | CI | ========================
+2026-04-03 16:42:42 | INFO | CI | STAGE 02: VALIDATE starting...
+2026-04-03 16:42:42 | INFO | CI | ========================
+2026-04-03 16:42:42 | INFO | CI | JSON STRUCTURE INSPECTION:
+2026-04-03 16:42:42 | INFO | CI | Top-level type: dict
+2026-04-03 16:42:42 | INFO | CI | Top-level keys: ['message', 'iss_position', 'timestamp']
+2026-04-03 16:42:42 | INFO | CI | message: str
+2026-04-03 16:42:42 | INFO | CI | iss_position: dict
+2026-04-03 16:42:42 | INFO | CI | timestamp: int
+2026-04-03 16:42:42 | INFO | CI | ISS position JSON validation passed.
+2026-04-03 16:42:42 | INFO | CI | Sink: validated JSON object
+2026-04-03 16:42:42 | INFO | CI | ========================
+2026-04-03 16:42:42 | INFO | CI | STAGE 03: TRANSFORM starting...
+2026-04-03 16:42:42 | INFO | CI | ========================
+2026-04-03 16:42:42 | INFO | CI | Transformation complete.
+2026-04-03 16:42:42 | INFO | CI | DataFrame preview:
+shape: (1, 5)
+┌────────────┬──────────────────────┬─────────┬──────────┬───────────┐
+│ timestamp  ┆ timestamp_utc        ┆ message ┆ latitude ┆ longitude │
+│ ---        ┆ ---                  ┆ ---     ┆ ---      ┆ ---       │
+│ i64        ┆ str                  ┆ str     ┆ f64      ┆ f64       │
+╞════════════╪══════════════════════╪═════════╪══════════╪═══════════╡
+│ 1775248960 ┆ 2026-04-03T20:42:40Z ┆ success ┆ -47.777  ┆ 104.2332  │
+└────────────┴──────────────────────┴─────────┴──────────┴───────────┘
+2026-04-03 16:42:42 | INFO | CI | Sink: Polars DataFrame created
+2026-04-03 16:42:42 | INFO | CI | ========================
+2026-04-03 16:42:42 | INFO | CI | STAGE 04: LOAD starting...
+2026-04-03 16:42:42 | INFO | CI | ========================
+2026-04-03 16:42:42 | INFO | CI | SINK PATH = data\processed\iss_location_processed_teja.csv
+2026-04-03 16:42:42 | INFO | CI | ========================
+2026-04-03 16:42:42 | INFO | CI | Pipeline executed successfully!
+2026-04-03 16:42:42 | INFO | CI | ========================
+2026-04-03 16:47:49 | INFO | CI | === RUN START ===
+2026-04-03 16:47:49 | INFO | CI | project=MODULE 4: EVTL PIPELINE
+2026-04-03 16:47:49 | INFO | CI | repo_dir=nlp-04
+2026-04-03 16:47:49 | INFO | CI | python=3.14.0
+2026-04-03 16:47:49 | INFO | CI | os=Windows 11
+2026-04-03 16:47:49 | INFO | CI | shell=powershell
+2026-04-03 16:47:49 | INFO | CI | cwd=.
+2026-04-03 16:47:49 | INFO | CI | github_actions=False
+2026-04-03 16:47:49 | INFO | CI | START PIPELINE
+2026-04-03 16:47:49 | INFO | CI | ROOT_PATH = .
+2026-04-03 16:47:49 | INFO | CI | DATA_PATH = data
+2026-04-03 16:47:49 | INFO | CI | RAW_PATH = data\raw
+2026-04-03 16:47:49 | INFO | CI | PROCESSED_PATH = data\processed
+2026-04-03 16:47:49 | INFO | CI | ========================
+2026-04-03 16:47:49 | INFO | CI | STAGE 01: EXTRACT starting... 
+2026-04-03 16:47:49 | INFO | CI | ========================
+2026-04-03 16:48:06 | INFO | CI | SOURCE PATH = http://api.open-notify.org/iss-now.json
+2026-04-03 16:48:06 | INFO | CI | SINK PATH = data\raw\iss_location_raw_teja.json
+2026-04-03 16:48:06 | INFO | CI | ========================
+2026-04-03 16:48:06 | INFO | CI | STAGE 02: VALIDATE starting...
+2026-04-03 16:48:06 | INFO | CI | ========================
+2026-04-03 16:48:06 | INFO | CI | JSON STRUCTURE INSPECTION:
+2026-04-03 16:48:06 | INFO | CI | Top-level type: dict
+2026-04-03 16:48:06 | INFO | CI | Top-level keys: ['message', 'iss_position', 'timestamp']
+2026-04-03 16:48:06 | INFO | CI | message: str
+2026-04-03 16:48:06 | INFO | CI | iss_position: dict
+2026-04-03 16:48:06 | INFO | CI | timestamp: int
+2026-04-03 16:48:06 | INFO | CI | ISS position JSON validation passed.
+2026-04-03 16:48:06 | INFO | CI | Sink: validated JSON object
+2026-04-03 16:48:06 | INFO | CI | ========================
+2026-04-03 16:48:06 | INFO | CI | STAGE 03: TRANSFORM starting...
+2026-04-03 16:48:06 | INFO | CI | ========================
+2026-04-03 16:48:06 | INFO | CI | Transformation complete.
+2026-04-03 16:48:06 | INFO | CI | DataFrame preview:
+shape: (1, 5)
+┌────────────┬──────────────────────┬─────────┬──────────┬───────────┐
+│ timestamp  ┆ timestamp_utc        ┆ message ┆ latitude ┆ longitude │
+│ ---        ┆ ---                  ┆ ---     ┆ ---      ┆ ---       │
+│ i64        ┆ str                  ┆ str     ┆ f64      ┆ f64       │
+╞════════════╪══════════════════════╪═════════╪══════════╪═══════════╡
+│ 1775249285 ┆ 2026-04-03T20:48:05Z ┆ success ┆ -36.8654 ┆ 127.2228  │
+└────────────┴──────────────────────┴─────────┴──────────┴───────────┘
+2026-04-03 16:48:06 | INFO | CI | Sink: Polars DataFrame created
+2026-04-03 16:48:06 | INFO | CI | ========================
+2026-04-03 16:48:06 | INFO | CI | STAGE 04: LOAD starting...
+2026-04-03 16:48:06 | INFO | CI | ========================
+2026-04-03 16:48:06 | INFO | CI | SINK PATH = data\processed\iss_location_processed_teja.csv
+2026-04-03 16:48:06 | INFO | CI | ========================
+2026-04-03 16:48:06 | INFO | CI | Pipeline executed successfully!
+2026-04-03 16:48:06 | INFO | CI | ========================
+2026-04-03 16:48:35 | INFO | CI | === RUN START ===
+2026-04-03 16:48:35 | INFO | CI | project=MODULE 4: EVTL PIPELINE
+2026-04-03 16:48:35 | INFO | CI | repo_dir=nlp-04
+2026-04-03 16:48:35 | INFO | CI | python=3.14.0
+2026-04-03 16:48:35 | INFO | CI | os=Windows 11
+2026-04-03 16:48:35 | INFO | CI | shell=powershell
+2026-04-03 16:48:35 | INFO | CI | cwd=.
+2026-04-03 16:48:35 | INFO | CI | github_actions=False
+2026-04-03 16:48:35 | INFO | CI | START PIPELINE
+2026-04-03 16:48:35 | INFO | CI | ROOT_PATH = .
+2026-04-03 16:48:35 | INFO | CI | DATA_PATH = data
+2026-04-03 16:48:35 | INFO | CI | RAW_PATH = data\raw
+2026-04-03 16:48:35 | INFO | CI | PROCESSED_PATH = data\processed
+2026-04-03 16:48:35 | INFO | CI | ========================
+2026-04-03 16:48:35 | INFO | CI | STAGE 01: EXTRACT starting... 
+2026-04-03 16:48:35 | INFO | CI | ========================
+2026-04-03 16:48:38 | INFO | CI | SOURCE PATH = http://api.open-notify.org/iss-now.json
+2026-04-03 16:48:38 | INFO | CI | SINK PATH = data\raw\iss_location_raw_teja.json
+2026-04-03 16:48:38 | INFO | CI | ========================
+2026-04-03 16:48:38 | INFO | CI | STAGE 02: VALIDATE starting...
+2026-04-03 16:48:38 | INFO | CI | ========================
+2026-04-03 16:48:38 | INFO | CI | JSON STRUCTURE INSPECTION:
+2026-04-03 16:48:38 | INFO | CI | Top-level type: dict
+2026-04-03 16:48:38 | INFO | CI | Top-level keys: ['message', 'iss_position', 'timestamp']
+2026-04-03 16:48:38 | INFO | CI | message: str
+2026-04-03 16:48:38 | INFO | CI | iss_position: dict
+2026-04-03 16:48:38 | INFO | CI | timestamp: int
+2026-04-03 16:48:38 | INFO | CI | ISS position JSON validation passed.
+2026-04-03 16:48:38 | INFO | CI | Sink: validated JSON object
+2026-04-03 16:48:38 | INFO | CI | ========================
+2026-04-03 16:48:38 | INFO | CI | STAGE 03: TRANSFORM starting...
+2026-04-03 16:48:38 | INFO | CI | ========================
+2026-04-03 16:48:38 | INFO | CI | Transformation complete.
+2026-04-03 16:48:38 | INFO | CI | DataFrame preview:
+shape: (1, 5)
+┌────────────┬──────────────────────┬─────────┬──────────┬───────────┐
+│ timestamp  ┆ timestamp_utc        ┆ message ┆ latitude ┆ longitude │
+│ ---        ┆ ---                  ┆ ---     ┆ ---      ┆ ---       │
+│ i64        ┆ str                  ┆ str     ┆ f64      ┆ f64       │
+╞════════════╪══════════════════════╪═════════╪══════════╪═══════════╡
+│ 1775249317 ┆ 2026-04-03T20:48:37Z ┆ success ┆ -35.5437 ┆ 129.0616  │
+└────────────┴──────────────────────┴─────────┴──────────┴───────────┘
+2026-04-03 16:48:38 | INFO | CI | Sink: Polars DataFrame created
+2026-04-03 16:48:38 | INFO | CI | ========================
+2026-04-03 16:48:38 | INFO | CI | STAGE 04: LOAD starting...
+2026-04-03 16:48:38 | INFO | CI | ========================
+2026-04-03 16:48:38 | INFO | CI | SINK PATH = data\processed\iss_location_processed_teja.csv
+2026-04-03 16:48:38 | INFO | CI | ========================
+2026-04-03 16:48:38 | INFO | CI | Pipeline executed successfully!
+2026-04-03 16:48:38 | INFO | CI | ========================
+2026-04-03 16:50:29 | INFO | CI | === RUN START ===
+2026-04-03 16:50:29 | INFO | CI | project=MODULE 4: EVTL PIPELINE
+2026-04-03 16:50:29 | INFO | CI | repo_dir=nlp-04
+2026-04-03 16:50:29 | INFO | CI | python=3.14.0
+2026-04-03 16:50:29 | INFO | CI | os=Windows 11
+2026-04-03 16:50:29 | INFO | CI | shell=powershell
+2026-04-03 16:50:29 | INFO | CI | cwd=.
+2026-04-03 16:50:29 | INFO | CI | github_actions=False
+2026-04-03 16:50:29 | INFO | CI | START PIPELINE
+2026-04-03 16:50:29 | INFO | CI | ROOT_PATH = .
+2026-04-03 16:50:29 | INFO | CI | DATA_PATH = data
+2026-04-03 16:50:29 | INFO | CI | RAW_PATH = data\raw
+2026-04-03 16:50:29 | INFO | CI | PROCESSED_PATH = data\processed
+2026-04-03 16:50:29 | INFO | CI | ========================
+2026-04-03 16:50:29 | INFO | CI | STAGE 01: EXTRACT starting... 
+2026-04-03 16:50:29 | INFO | CI | ========================
+2026-04-03 16:50:32 | INFO | CI | SOURCE PATH = http://api.open-notify.org/iss-now.json
+2026-04-03 16:50:32 | INFO | CI | SINK PATH = data\raw\iss_location_raw_teja.json
+2026-04-03 16:50:32 | INFO | CI | ========================
+2026-04-03 16:50:32 | INFO | CI | STAGE 02: VALIDATE starting...
+2026-04-03 16:50:32 | INFO | CI | ========================
+2026-04-03 16:50:32 | INFO | CI | JSON STRUCTURE INSPECTION:
+2026-04-03 16:50:32 | INFO | CI | Top-level type: dict
+2026-04-03 16:50:32 | INFO | CI | Top-level keys: ['message', 'iss_position', 'timestamp']
+2026-04-03 16:50:32 | INFO | CI | message: str
+2026-04-03 16:50:32 | INFO | CI | iss_position: dict
+2026-04-03 16:50:32 | INFO | CI | timestamp: int
+2026-04-03 16:50:32 | INFO | CI | ISS position JSON validation passed.
+2026-04-03 16:50:32 | INFO | CI | Sink: validated JSON object
+2026-04-03 16:50:32 | INFO | CI | ========================
+2026-04-03 16:50:32 | INFO | CI | STAGE 03: TRANSFORM starting...
+2026-04-03 16:50:32 | INFO | CI | ========================
+2026-04-03 16:50:32 | INFO | CI | Transformation complete.
+2026-04-03 16:50:32 | INFO | CI | DataFrame preview:
+shape: (1, 5)
+┌────────────┬──────────────────────┬─────────┬──────────┬───────────┐
+│ timestamp  ┆ timestamp_utc        ┆ message ┆ latitude ┆ longitude │
+│ ---        ┆ ---                  ┆ ---     ┆ ---      ┆ ---       │
+│ i64        ┆ str                  ┆ str     ┆ f64      ┆ f64       │
+╞════════════╪══════════════════════╪═════════╪══════════╪═══════════╡
+│ 1775249431 ┆ 2026-04-03T20:50:31Z ┆ success ┆ -30.5976 ┆ 135.114   │
+└────────────┴──────────────────────┴─────────┴──────────┴───────────┘
+2026-04-03 16:50:32 | INFO | CI | Sink: Polars DataFrame created
+2026-04-03 16:50:32 | INFO | CI | ========================
+2026-04-03 16:50:32 | INFO | CI | STAGE 04: LOAD starting...
+2026-04-03 16:50:32 | INFO | CI | ========================
+2026-04-03 16:50:32 | INFO | CI | SINK PATH = data\processed\iss_location_processed_teja.csv
+2026-04-03 16:50:32 | INFO | CI | ========================
+2026-04-03 16:50:32 | INFO | CI | Pipeline executed successfully!
+2026-04-03 16:50:32 | INFO | CI | ========================
+2026-04-03 16:57:06 | INFO | CI | === RUN START ===
+2026-04-03 16:57:06 | INFO | CI | project=MODULE 4: EVTL PIPELINE
+2026-04-03 16:57:06 | INFO | CI | repo_dir=nlp-04
+2026-04-03 16:57:06 | INFO | CI | python=3.14.0
+2026-04-03 16:57:06 | INFO | CI | os=Windows 11
+2026-04-03 16:57:06 | INFO | CI | shell=powershell
+2026-04-03 16:57:06 | INFO | CI | cwd=.
+2026-04-03 16:57:06 | INFO | CI | github_actions=False
+2026-04-03 16:57:06 | INFO | CI | START PIPELINE
+2026-04-03 16:57:06 | INFO | CI | ROOT_PATH = .
+2026-04-03 16:57:06 | INFO | CI | DATA_PATH = data
+2026-04-03 16:57:06 | INFO | CI | RAW_PATH = data\raw
+2026-04-03 16:57:06 | INFO | CI | PROCESSED_PATH = data\processed
+2026-04-03 16:57:06 | INFO | CI | ========================
+2026-04-03 16:57:06 | INFO | CI | STAGE 01: EXTRACT starting... 
+2026-04-03 16:57:06 | INFO | CI | ========================
+2026-04-03 16:57:10 | INFO | CI | SOURCE PATH = http://api.open-notify.org/iss-now.json
+2026-04-03 16:57:10 | INFO | CI | SINK PATH = data\raw\iss_location_raw_teja.json
+2026-04-03 16:57:10 | INFO | CI | ========================
+2026-04-03 16:57:10 | INFO | CI | STAGE 02: VALIDATE starting...
+2026-04-03 16:57:10 | INFO | CI | ========================
+2026-04-03 16:57:10 | INFO | CI | JSON STRUCTURE INSPECTION:
+2026-04-03 16:57:10 | INFO | CI | Top-level type: dict
+2026-04-03 16:57:10 | INFO | CI | Top-level keys: ['message', 'iss_position', 'timestamp']
+2026-04-03 16:57:10 | INFO | CI | message: str
+2026-04-03 16:57:10 | INFO | CI | iss_position: dict
+2026-04-03 16:57:10 | INFO | CI | timestamp: int
+2026-04-03 16:57:10 | INFO | CI | ISS position JSON validation passed.
+2026-04-03 16:57:10 | INFO | CI | Sink: validated JSON object
+2026-04-03 16:57:10 | INFO | CI | ========================
+2026-04-03 16:57:10 | INFO | CI | STAGE 03: TRANSFORM starting...
+2026-04-03 16:57:10 | INFO | CI | ========================
+2026-04-03 16:57:10 | INFO | CI | Transformation complete.
+2026-04-03 16:57:10 | INFO | CI | DataFrame preview:
+shape: (1, 7)
+┌───────────┬───────────┬─────────┬──────────┬───────────┬───────────┬──────────┐
+│ timestamp ┆ timestamp ┆ message ┆ latitude ┆ longitude ┆ lat_hemis ┆ lon_hemi │
+│ ---       ┆ _utc      ┆ ---     ┆ ---      ┆ ---       ┆ phere     ┆ sphere   │
+│ i64       ┆ ---       ┆ str     ┆ f64      ┆ f64       ┆ ---       ┆ ---      │
+│           ┆ str       ┆         ┆          ┆           ┆ str       ┆ str      │
+╞═══════════╪═══════════╪═════════╪══════════╪═══════════╪═══════════╪══════════╡
+│ 177524982 ┆ 2026-04-0 ┆ success ┆ -11.5775 ┆ 152.0261  ┆ S         ┆ E        │
+│ 8         ┆ 3T20:57:0 ┆         ┆          ┆           ┆           ┆          │
+│           ┆ 8+00:00   ┆         ┆          ┆           ┆           ┆          │
+└───────────┴───────────┴─────────┴──────────┴───────────┴───────────┴──────────┘
+2026-04-03 16:57:10 | INFO | CI | Sink: Polars DataFrame created
+2026-04-03 16:57:10 | INFO | CI | ========================
+2026-04-03 16:57:10 | INFO | CI | STAGE 04: LOAD starting...
+2026-04-03 16:57:10 | INFO | CI | ========================
+2026-04-03 16:57:10 | INFO | CI | SINK PATH = data\processed\iss_location_processed_teja.csv
+2026-04-03 16:57:10 | INFO | CI | ========================
+2026-04-03 16:57:10 | INFO | CI | Pipeline executed successfully!
+2026-04-03 16:57:10 | INFO | CI | ========================
+2026-04-03 17:17:21 | INFO | CI | === RUN START ===
+2026-04-03 17:17:21 | INFO | CI | project=MODULE 4: EVTL PIPELINE
+2026-04-03 17:17:21 | INFO | CI | repo_dir=nlp-04
+2026-04-03 17:17:21 | INFO | CI | python=3.14.0
+2026-04-03 17:17:21 | INFO | CI | os=Windows 11
+2026-04-03 17:17:21 | INFO | CI | shell=powershell
+2026-04-03 17:17:21 | INFO | CI | cwd=.
+2026-04-03 17:17:21 | INFO | CI | github_actions=False
+2026-04-03 17:17:21 | INFO | CI | START PIPELINE
+2026-04-03 17:17:21 | INFO | CI | ROOT_PATH = .
+2026-04-03 17:17:21 | INFO | CI | DATA_PATH = data
+2026-04-03 17:17:21 | INFO | CI | RAW_PATH = data\raw
+2026-04-03 17:17:21 | INFO | CI | PROCESSED_PATH = data\processed
+2026-04-03 17:17:21 | INFO | CI | ========================
+2026-04-03 17:17:21 | INFO | CI | STAGE 01: EXTRACT starting... 
+2026-04-03 17:17:21 | INFO | CI | ========================
+2026-04-03 17:17:21 | INFO | CI | SOURCE PATH = http://api.open-notify.org/iss-now.json
+2026-04-03 17:17:21 | INFO | CI | SINK PATH = data\raw\iss_location_raw_teja.json
+2026-04-03 17:17:21 | INFO | CI | ========================
+2026-04-03 17:17:21 | INFO | CI | STAGE 02: VALIDATE starting...
+2026-04-03 17:17:21 | INFO | CI | ========================
+2026-04-03 17:17:21 | INFO | CI | JSON STRUCTURE INSPECTION:
+2026-04-03 17:17:21 | INFO | CI | Top-level type: dict
+2026-04-03 17:17:21 | INFO | CI | Top-level keys: ['message', 'iss_position', 'timestamp']
+2026-04-03 17:17:21 | INFO | CI | message: str
+2026-04-03 17:17:21 | INFO | CI | iss_position: dict
+2026-04-03 17:17:21 | INFO | CI | timestamp: int
+2026-04-03 17:17:21 | INFO | CI | ISS position JSON validation passed.
+2026-04-03 17:17:21 | INFO | CI | Sink: validated JSON object
+2026-04-03 17:17:21 | INFO | CI | ========================
+2026-04-03 17:17:21 | INFO | CI | STAGE 03: TRANSFORM starting...
+2026-04-03 17:17:21 | INFO | CI | ========================
+2026-04-03 17:17:21 | INFO | CI | Transformation complete.
+2026-04-03 17:17:21 | INFO | CI | DataFrame preview:
+shape: (1, 7)
+┌────────────┬──────────────────┬─────────┬──────────┬───────────┬────────────────┬────────────────┐
+│ timestamp  ┆ timestamp_utc    ┆ message ┆ latitude ┆ longitude ┆ lat_hemisphere ┆ lon_hemisphere │
+│ ---        ┆ ---              ┆ ---     ┆ ---      ┆ ---       ┆ ---            ┆ ---            │
+│ i64        ┆ str              ┆ str     ┆ f64      ┆ f64       ┆ str            ┆ str            │
+╞════════════╪══════════════════╪═════════╪══════════╪═══════════╪════════════════╪════════════════╡
+│ 1775251040 ┆ 2026-04-03T21:17 ┆ success ┆ 44.4979  ┆ -152.644  ┆ N              ┆ W              │
+│            ┆ :20+00:00        ┆         ┆          ┆           ┆                ┆                │
+└────────────┴──────────────────┴─────────┴──────────┴───────────┴────────────────┴────────────────┘
+2026-04-03 17:17:21 | INFO | CI | Sink: Polars DataFrame created
+2026-04-03 17:17:21 | INFO | CI | ========================
+2026-04-03 17:17:21 | INFO | CI | STAGE 04: LOAD starting...
+2026-04-03 17:17:21 | INFO | CI | ========================
+2026-04-03 17:17:21 | INFO | CI | SINK PATH = data\processed\iss_location_processed_teja.csv
+2026-04-03 17:17:21 | INFO | CI | ========================
+2026-04-03 17:17:21 | INFO | CI | Pipeline executed successfully!
+2026-04-03 17:17:21 | INFO | CI | ========================
+2026-04-03 17:19:43 | INFO | CI | === RUN START ===
+2026-04-03 17:19:43 | INFO | CI | project=MODULE 4: EVTL PIPELINE
+2026-04-03 17:19:43 | INFO | CI | repo_dir=nlp-04
+2026-04-03 17:19:43 | INFO | CI | python=3.14.0
+2026-04-03 17:19:43 | INFO | CI | os=Windows 11
+2026-04-03 17:19:43 | INFO | CI | shell=powershell
+2026-04-03 17:19:43 | INFO | CI | cwd=.
+2026-04-03 17:19:43 | INFO | CI | github_actions=False
+2026-04-03 17:19:43 | INFO | CI | START PIPELINE
+2026-04-03 17:19:43 | INFO | CI | ROOT_PATH = .
+2026-04-03 17:19:43 | INFO | CI | DATA_PATH = data
+2026-04-03 17:19:43 | INFO | CI | RAW_PATH = data\raw
+2026-04-03 17:19:43 | INFO | CI | PROCESSED_PATH = data\processed
+2026-04-03 17:19:43 | INFO | CI | ========================
+2026-04-03 17:19:43 | INFO | CI | STAGE 01: EXTRACT starting... 
+2026-04-03 17:19:43 | INFO | CI | ========================
+2026-04-03 17:19:44 | INFO | CI | SOURCE PATH = http://api.open-notify.org/iss-now.json
+2026-04-03 17:19:44 | INFO | CI | SINK PATH = data\raw\iss_location_raw_teja.json
+2026-04-03 17:19:44 | INFO | CI | ========================
+2026-04-03 17:19:44 | INFO | CI | STAGE 02: VALIDATE starting...
+2026-04-03 17:19:44 | INFO | CI | ========================
+2026-04-03 17:19:44 | INFO | CI | JSON STRUCTURE INSPECTION:
+2026-04-03 17:19:44 | INFO | CI | Top-level type: dict
+2026-04-03 17:19:44 | INFO | CI | Top-level keys: ['message', 'iss_position', 'timestamp']
+2026-04-03 17:19:44 | INFO | CI | message: str
+2026-04-03 17:19:44 | INFO | CI | iss_position: dict
+2026-04-03 17:19:44 | INFO | CI | timestamp: int
+2026-04-03 17:19:44 | INFO | CI | ISS position JSON validation passed.
+2026-04-03 17:19:44 | INFO | CI | Sink: validated JSON object
+2026-04-03 17:19:44 | INFO | CI | ========================
+2026-04-03 17:19:44 | INFO | CI | STAGE 03: TRANSFORM starting...
+2026-04-03 17:19:44 | INFO | CI | ========================
+2026-04-03 17:19:44 | INFO | CI | Transformation complete.
+2026-04-03 17:19:44 | INFO | CI | DataFrame preview:
+shape: (1, 7)
+┌────────────┬───────────────────────────┬─────────┬──────────┬───────────┬────────────────┬────────────────┐
+│ timestamp  ┆ timestamp_utc             ┆ message ┆ latitude ┆ longitude ┆ lat_hemisphere ┆ lon_hemisphere │
+│ ---        ┆ ---                       ┆ ---     ┆ ---      ┆ ---       ┆ ---            ┆ ---            │
+│ i64        ┆ str                       ┆ str     ┆ f64      ┆ f64       ┆ str            ┆ str            │
+╞════════════╪═══════════════════════════╪═════════╪══════════╪═══════════╪════════════════╪════════════════╡
+│ 1775251183 ┆ 2026-04-03T21:19:43+00:00 ┆ success ┆ 48.4243  ┆ -141.1075 ┆ N              ┆ W              │
+└────────────┴───────────────────────────┴─────────┴──────────┴───────────┴────────────────┴────────────────┘
+2026-04-03 17:19:44 | INFO | CI | Sink: Polars DataFrame created
+2026-04-03 17:19:44 | INFO | CI | ========================
+2026-04-03 17:19:44 | INFO | CI | STAGE 04: LOAD starting...
+2026-04-03 17:19:44 | INFO | CI | ========================
+2026-04-03 17:19:44 | INFO | CI | SINK PATH = data\processed\iss_location_processed_teja.csv
+2026-04-03 17:19:44 | INFO | CI | ========================
+2026-04-03 17:19:44 | INFO | CI | Pipeline executed successfully!
+2026-04-03 17:19:44 | INFO | CI | ========================
